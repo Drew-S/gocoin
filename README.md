@@ -1,5 +1,9 @@
 # Go Coin
 
+![preview](preview.png)
+
+The preview shown is from my personal conky configuration.
+
 A simple little golang program that connects to nomics api to obtain cryptocurrency information from their public API. Usage is for simple terminal interaction, such as within Polybar or Conky.
 
 ## Usage
@@ -12,4 +16,4 @@ Use `-c` to set your currency locale (default: CAD).
 
 Use `-x` to set the target cryptocurrency (default: BTC).
 
-Use `-f "<format>"` to format the output of the call (default: "%C: %P %1D:P %1D:C", which outputs "BTC: 15627.42669435 279.96446090 ")
+Use `-f "<format>"` to format the output of the call (default: "%C: %P %1D:P %1D:C", which outputs "BTC: 15627.42669435 279.96446090 "). The caret that is shown at the end (which may not display properly) is from NerdFonts Complete.
